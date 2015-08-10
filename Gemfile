@@ -33,9 +33,15 @@ group :development, :test do
   gem 'spring'
 end
 
+group :development do
+  gem 'guard'
+  gem 'guard-minitest'
+end
+
 group :test do
   gem 'minitest-reporters'
   gem 'mini_backtrace'
+  gem 'guard'
   gem 'guard-minitest'
 end
 
