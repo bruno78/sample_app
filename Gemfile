@@ -6,6 +6,8 @@ gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
 gem 'bcrypt'
 gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 gem 'bootstrap-sass'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
